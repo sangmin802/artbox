@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="script/index.js"></script>
+    <link rel="shortcut icon" href="http://www.artboxmall.com/Images/Ver1/Icon/artboxmall.ico" type="image/x-icon">
+    <title>ARTBOX</title>
+</head>
+<body>
+    <header>
+        <div class="header_top">
+            <a href="index.html">
+                <div class="logo">
+                    <img src="img/logo.png" class="logoimg">
+                </div>
+            </a>
+        </div>
+        <div class="header_bottom">
+            <ul class="header_bottom_left">
+                <li>
+                    <input type="hidden" value="toy">
+                    인형/토이
+                </li>
+                <li>
+                    <input type="hidden" value="suply">
+                    문구
+                </li>
+                <li>
+                    <input type="hidden" value="passion">
+                    패션
+                </li>
+                <li>
+                    <input type="hidden" value="bath">
+                    주방/욕실
+                </li>
+                <li>
+                    <input type="hidden" value="living">
+                    리빙/데코
+                </li>
+                <li>
+                    <input type="hidden" value="digital">
+                    디지털/가전
+                </li>
+                <li>
+                    <input type="hidden" value="travel">
+                    여행
+                </li>
+                <li>
+                    <input type="hidden" value="beauty">
+                    뷰티
+                </li>
+            </ul>
+            <ul class="header_bottom_right">
+                <li class="cart">
+                    <div class="cartcount">0</div>
+                    <img src="img/cart.png">
+                </li>
+                <li class="login">
+                    <img src="img/login.png">
+                </li>
+                <li class="search">
+                    <input type="text" class="txt">
+                    <div class="btn">
+                        <img src="img/btn.png">
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <header class="headerblank"></header> <!-- 스크롤시 빈공간이 생겨 슬라이드가 위로 툭 붙는거 방지 -->
+    <div class="swiper-container main_slide">
+        <div class="swiper-wrapper main_slide_wrap">
+            <div class="swiper-slide go_event_page">
+                <input type="hidden" value="homeparty">
+                <img src="img/slide1.jpg">
+            </div>
+            <div class="swiper-slide go_event_page">
+                <input type="hidden" value="lightbag">
+                <img src="img/slide2.jpg">
+            </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <section>
+        <div class="section1">
+            <div class="event1 go_event_page">
+                <input type="hidden" value="waterplay">
+                <h2 class="event_h2">
+                    물놀이 백배 즐기기
+                </h2>
+                <p class="event_p">
+                    꿀잼 빅잼 빵빵잼~<br>
+                    올여름 물놀이 필수템!
+                </p>
+            </div>
+            <div class="event2 go_event_page">
+                <input type="hidden" value="imsohot">
+                <h2 class="event_h2">
+                    나 빼고 다 더워
+                </h2>
+                <p class="event_p">
+                    나만 이렇게 시원해도 되나요?<br>
+                    손풍기부터 쿨팩까지- 살 떨리게 시원한 쿨띵템!
+                </p>
+            </div>
+        </div>
+        <div class="section2">
+            <div class="bestitem">
+                <div class="section2_title">
+                    <h1>BEST ITEM</h1>
+                    <span></span>
+                </div>
+                <div class="section2_item_wrap">
+                </div>
+            </div>
+        </div>
+        <div class="section3">
+            <div class="newarrival">
+                <div class="section3_title">
+                    <h1>NEW ARRIVAL</h1>
+                    <span></span>
+                </div>
+                <div class="section3_item_wrap">
+                    <div class="newarrive_left">
+                        <input type="hidden" value="1907180460">
+                        <div class="newarrive_left_wrap iteminform">
+                            <h1>기부니가 둥둥하게</h1>
+                            <p>물속둥둥 키링 (4 Types)</p>
+                        </div>
+                    </div>
+                    <div class="newarrive_center">
+                        <input type="hidden" value="1907311003">
+                        <div class="newarrive_center_wrap iteminform">
+                            <h1>여름철 칫솔관리법</h1>
+                            <p>미니 칫솔살균기 (4 Types)</p>
+                        </div>
+                    </div>
+                    <div class="newarrive_right">
+                        <input type="hidden" value="1907230464">
+                        <div class="newarrive_right_wrap iteminform">
+                            <h1>색칠하고 머그셈~</h1>
+                            <p>DIY 컬러링머그 (2 Types)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section4">
+            <img src="img/section4_main.jpg" alt="진짜마음은 편지로">
+            <div class="letter">
+            </div>
+        </div>
+        <div class="section5">
+            <div class="swiper-container designfinder_wrap">
+                <div class="disignfinder_title">
+                    <div class="swiper-button-prev"></div>
+                    <h1>DESIGN FINDER</h1>
+                    <div class="swiper-button-next"></div>
+                </div>
+                <div class="swiper-wrapper designfinder_content_box">
+                    <div class="swiper-slide">
+                        <div class="img">
+                            <input type="hidden" value="1907180686">
+                            <img src="img/items/1907180686_1.jpg" alt="화투" class="iteminform">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img">
+                            <input type="hidden" value="1907311003">
+                            <img src="img/items/1907311003_1.jpg" alt="커터칼" class="iteminform">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img">
+                            <input type="hidden" value="1907040818">
+                            <img src="img/items/1907040818_1.jpg" alt="스프링노트" class="iteminform">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img">
+                            <input type="hidden" value="1907180552">
+                            <img src="img/items/1907180552_1.jpg" alt="안대" class="iteminform">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img">
+                            <input type="hidden" value="1907081240">
+                            <img src="img/items/1907081240_1.jpg" alt="곰쿠션" class="iteminform">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img">
+                            <input type="hidden" value="1907260738">
+                            <img src="img/items/1907260738_1.jpg" alt="텀블러" class="iteminform">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img">
+                            <input type="hidden" value="1906130433">
+                            <img src="img/items/1906130433_1.jpg" alt="선글라스" class="iteminform">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img">
+                            <input type="hidden" value="1908070639">
+                            <img src="img/items/1908070639_1.jpg" alt="바나나인형" class="iteminform">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img">
+                            <input type="hidden" value="1908070523">
+                            <img src="img/items/1908070523_1.jpg" alt="도시락통" class="iteminform">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img">
+                            <input type="hidden" value="1907300805">
+                            <img src="img/items/1907300805_1.jpg" alt="와핀펜" class="iteminform">
+                        </div>
+                    </div>
+                </div>
+            </div>   
+        </div>
+        <div class="section6">
+            <div class="section6_wrap">
+                <div class="sectino6_friend">
+                    <div class="friend_img img_change">
+                        <img src="img/mali_big.jpg" alt="말리">
+                    </div>
+                    <div class="friend_img img_change">
+                        <img src="img/iren.jpg" alt="이렌">
+                    </div>
+                    <div class="friend_img img_change">
+                        <img src="img/peter.jpg" alt="피터,오스트">
+                    </div>
+                    <div class="friend_img img_change">
+                        <img src="img/otto.jpg" alt="오토">
+                    </div>
+                    <div class="friend_img">
+                        <img src="img/otherfriend.png" alt="다른 친구들">
+                    </div>
+                </div>
+                <div class="section6_friend_items">
+                </div>
+                <div class="aboutcharacter">
+                    <img src="img/aboutcharacter.jpg" alt="친구 더 보기" class="aboutcharacter_img">
+                </div>
+            </div>
+        </div>
+        <div class="section7">
+            <div class="section7_wrap">
+                <div class="section7_header">
+                    <img src="img/artboxfriends.jpg" alt="아트박스 프렌즈">
+                </div>
+                <div class="instagramevent">
+                    <div class="instagram">
+                        <h1>INSTAGRAM<a href="https://www.instagram.com/artbox_kr_official/" target="_blank">@artbox_kr_official</a></h1>
+                        <div class="instagram_items">
+                            <ul class="instagram_items_ul">
+                                <li class="instagram_items_li marginbot10">
+                                    <a href="https://www.instagram.com/p/B0759s0H_x1/" target="_blank"><img src="img/insta_1.jpg" alt="컵"></a>
+                                </li>
+                                <li class="instagram_items_li marginbot10">
+                                    <a href="https://www.instagram.com/p/B05VeX5HK6W/" target="_blank"><img src="img/insta_2.jpg" alt="테이프"></a>
+                                </li>
+                                <li class="instagram_items_li marginbot10">
+                                    <a href="https://www.instagram.com/p/B02ti1an6tR/" target="_blank"><img src="img/insta_3.jpg" alt="노트"></a>
+                                </li>
+                                <li class="instagram_items_li">
+                                    <a href="https://www.instagram.com/p/B00LaGNn2q9/" target="_blank"><img src="img/insta_4.jpg" alt="손톱깎이"></a>
+                                </li>
+                                <li class="instagram_items_li">
+                                    <a href="https://www.instagram.com/p/B0xgHiAnzKq/" target="_blank"><img src="img/insta_5.jpg" alt="캘린더"></a>
+                                </li>
+                                <li class="instagram_items_li">
+                                    <a href="https://www.instagram.com/p/B0p8CmPHc8M/" target="_blank"><img src="img/insta_6.jpg" alt="짭에어팟"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="section7_event">
+                        <h1>EVENT</h1>
+                        <div class="swiper-container event_slide">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="eventslideinform">
+                                        <a href="http://www.poom.co.kr/home/event/culturetour/musicalbum.asp" target="_blank"><img src="img/eventslide1.jpg" alt="유열의 음악앨범 예매권 증정"></a>
+                                        <p class="eventdate">이벤트 기간</p>
+                                        <p class="date">구하기</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="eventslideinform">
+                                        <a href="http://www.poom.co.kr/Home/event/culturetour/pooh.asp" target="_blank"><img src="img/eventslide2.jpg" alt="안녕 푸 초대권 증정"></a>
+                                        <p class="eventdate">이벤트 기간</p>
+                                        <p class="date">구하기</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section8">
+            <div class="section8_wrap">
+                <div class="artboxmembership">
+                    <h1>ARTBOX MEMBERSHIP</h1>
+                    <p>할인에 적립까지-<br>아트박스의 모든 브랜드 혜택을 한 번에!<br>아트박스 통합 멤버십. 지금 바로 가입하세요~</p>
+                </div>
+                <div class="wallpaper">
+                    <h1>WALL PAPER</h1>
+                    <div class="download_way">
+                        <div class="ios"></div>
+                        <div class="android"></div>
+                        <div class="desktop"></div>
+                    </div>
+                </div>
+                <div class="artboxofflinestore">
+                    <h1>ARTBOX<br>OFFLINE STORE</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer_wrap">
+            <div class="footer_top">
+                <ul class="footer_top_left_ul">
+                    <li class="footer_top_left_li">회사소개</li>
+                    <li class="footer_top_left_li">인재채용</li>
+                    <li class="footer_top_left_li">이용약관</li>
+                    <li class="footer_top_left_li">개인정보취급방침</li>
+                    <li class="footer_top_left_li">이메일주소무단수집거부</li>
+                    <li class="footer_top_left_li">입점문의</li>
+                    <li class="footer_top_left_li">대량구매</li>
+                </ul>
+                <ul class="footer_top_right_ul">
+                    <li class="footer_top_right_li">
+                        <select class="familysite">
+                            <option value="FAMILY SITE">FAMILY SITE</option>
+                            <option value="POOM" class="poom">POOM</option>
+                        </select>
+                    </li>
+                    <li class="footer_top_right_li">
+                        <a href="https://www.facebook.com/artbox.kr.official/" target="_blank"><img src="img/facebook.png" alt="페이스북"></a>
+                    </li>
+                    <li class="footer_top_right_li">
+                        <a href="https://www.instagram.com/artbox_kr_official/" target="_blank"><img src="img/instagram.png" alt="인스타그램"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_bottom">
+                <div class="customer_move">
+                    <h3>고객감동센터</h3>
+                    <h1>1577-9081</h1>
+                    <p>운영시간 09:00~18:00, 점심시간 12:30~13:30</p>
+                    <p>* 주말 및 공휴일은 1:1 문의/상담을 이용해주세요.</p>
+                </div>
+                <div class="ask">
+                    <div class="frequently">
+                        <img src="img/footer_btn1.png" alt="자주하는질문">
+                        <p>자주하는 질문</p>
+                    </div>
+                    <div class="onevsone">
+                        <img src="img/footer_btn2.png" alt="1대1 전화상담">
+                        <p>1:1 문의/상담</p>
+                    </div>
+                </div>
+                <div class="company">
+                    <h4>(주)아트박스</h4>
+                    <p>
+                        (06653) 서울특별시 서초구 반포대로 12길 41  대표이사 : 조석현  사업자등록번호 214-81-06825  사업자정보확인><br>
+                        통신판매업신고 제 2011-서울서초-0404호  개인정보 책임자 : 정정설  호스팅제공자 : (주)아트박스
+                        E-MAIL: customer@poom.co.kr
+                        <br><br>
+                        COPYRIGHT © 2011 ARTBOX CO., LTD ALL RIGHTS RESERVED.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
