@@ -14,7 +14,7 @@ $(document).ready(function(){
     var event_item_cart1 = [];
 
     $.ajax({
-        url : '../json/items.json',
+        url : 'https://raw.githubusercontent.com/sangmin802/artbox/master/json/items.json',
         method : 'GET',
         dataType : 'json'
     }).done(function(data){
@@ -33,7 +33,7 @@ $(document).ready(function(){
         }
     });
     $.ajax({
-        url : '../json/slideandevent.json',
+        url : 'https://raw.githubusercontent.com/sangmin802/artbox/master/json/slideandevent.json',
         method : 'GET',
         dataType : 'json'
     }).done(function(data){

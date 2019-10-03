@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $.ajax({
-        url : '../json/items.json',
+        url : 'https://raw.githubusercontent.com/sangmin802/artbox/master/json/items.json',
         method : 'GET',
         datatype : 'json'
     }).done(function(data){

@@ -6,7 +6,7 @@ $(document).ready(function(){
 
   
   $.ajax({
-    url : '../json/items.json',
+    url : 'https://raw.githubusercontent.com/sangmin802/artbox/master/json/items.json',
     type : 'GET',
     dataType : 'json'
   }).done(function(data){
