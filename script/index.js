@@ -176,30 +176,30 @@ $(document).ready(function(){
       }
 
       if(coupon){
-        coupon = '<img src="../img/eventalert/coupon.png" alt="쿠폰">'
+        coupon = '<img src="img/eventalert/coupon.png" alt="쿠폰">'
       }else {
         coupon = '';
       }
 
       if(sale){
-        sale = '<img src="../img/eventalert/sale.png" alt="할인">'
+        sale = '<img src="img/eventalert/sale.png" alt="할인">'
       }else {
         sale = '';
       }
 
       if(deliveryevent){
-        deliveryevent = '<img src="../img/eventalert/deliveryevent.png" alt="무료배송">'
+        deliveryevent = '<img src="img/eventalert/deliveryevent.png" alt="무료배송">'
       }else {
         deliveryevent = '';
       }
 
       if(new2){
-        new2 = '<img src="../img/eventalert/new.png" alt="신상품">'
+        new2 = '<img src="img/eventalert/new.png" alt="신상품">'
       }else {
         new2 = '';
       }
       
-      txt = '<div class="best_item"><input type="hidden" value="'+code+'"><div class="best_item_id_num">'+zero(id)+'</div><div class="best_item_img iteminform"><img src="../img/items/'+src+'" alt="'+name+'"></div><div class="best_item_name overflow_dot">'+name+'</div><div class="best_item_price overflow_dot">'+comma(price)+'원'+percent+'</div><div class="tag">'+coupon+sale+new2+deliveryevent+'</div></div>';
+      txt = '<div class="best_item"><input type="hidden" value="'+code+'"><div class="best_item_id_num">'+zero(id)+'</div><div class="best_item_img iteminform"><img src="img/items/'+src+'" alt="'+name+'"></div><div class="best_item_name overflow_dot">'+name+'</div><div class="best_item_price overflow_dot">'+comma(price)+'원'+percent+'</div><div class="tag">'+coupon+sale+new2+deliveryevent+'</div></div>';
 
       html = html + txt;
     }
@@ -292,7 +292,7 @@ $(document).ready(function(){
       name = friend_change_fill_pdt[i].name;
       code = friend_change_fill_pdt[i].code;
 
-      txt = '<div class="friend_change_item"><input type="hidden" value="'+code+'"><img src="../img/items/'+src+'" alt="'+name+'" class="iteminform"></div>'
+      txt = '<div class="friend_change_item"><input type="hidden" value="'+code+'"><img src="img/items/'+src+'" alt="'+name+'" class="iteminform"></div>'
 
       html = html + txt;
     }

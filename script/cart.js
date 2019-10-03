@@ -135,30 +135,30 @@ $(document).ready(function(){
                 }
         
                 if(coupon){
-                    coupon = '<img src="../img/eventalert/coupon.png" alt="쿠폰">'
+                    coupon = '<img src="img/eventalert/coupon.png" alt="쿠폰">'
                 }else {
                     coupon = '';
                 }
         
                 if(sale){
-                    sale = '<img src="../img/eventalert/sale.png" alt="할인">'
+                    sale = '<img src="img/eventalert/sale.png" alt="할인">'
                 }else {
                     sale = '';
                 }
         
                 if(deliveryevent){
-                    deliveryevent = '<img src="../img/eventalert/deliveryevent.png" alt="무료배송">'
+                    deliveryevent = '<img src="img/eventalert/deliveryevent.png" alt="무료배송">'
                 }else {
                     deliveryevent = '';
                 }
         
                 if(new2){
-                    new2 = '<img src="../img/eventalert/new.png" alt="신상품">'
+                    new2 = '<img src="img/eventalert/new.png" alt="신상품">'
                 }else {
                     new2 = '';
                 }
     
-                txt = '<div class="item"><input type="hidden" value="'+code+'"><div class="item_img"><div class="graybox"><div class="heart"></div><div class="cart"></div><div class="opinion">0</div></div><img src="../img/items/'+src+'" alt="'+name+'"></div><div class="name overflow_dot">'+name+'</div><div class="price">'+comma(price)+percent+'</div><div class="tag">'+coupon+sale+new2+deliveryevent+'</div><div class="remove">x</div></div>'
+                txt = '<div class="item"><input type="hidden" value="'+code+'"><div class="item_img"><div class="graybox"><div class="heart"></div><div class="cart"></div><div class="opinion">0</div></div><img src="img/items/'+src+'" alt="'+name+'"></div><div class="name overflow_dot">'+name+'</div><div class="price">'+comma(price)+percent+'</div><div class="tag">'+coupon+sale+new2+deliveryevent+'</div><div class="remove">x</div></div>'
     
                 html = html + txt;
             }
