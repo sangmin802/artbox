@@ -66,7 +66,6 @@ $(document).ready(function(){
     
     $(document).on('click','.header_bottom_left li', function(){
         var group = $(this).children('input').attr('value');
-        console.log(group);
         window.location = 'itemgroup.html?group='+group;
     });
 

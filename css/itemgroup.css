@@ -25,7 +25,7 @@ header {
 .logo {
     width : 260px;
     margin : auto;
-    line-height : 260px;
+    line-height : 200px;
 }
 .logo .logoimg {
     width : 100%;
@@ -155,9 +155,9 @@ header {
 .travelbg { background-image : url('../img/groupdivide/travel.jpg'); }
 .beautybg { background-image : url('../img/groupdivide/beauty.jpg'); }
 .mainimg .img p {
-    line-height : 600px;
     font-size : 40px;
     margin-left : 60px;
+    line-height : 370px;
 }
 /* aside */
 aside {
