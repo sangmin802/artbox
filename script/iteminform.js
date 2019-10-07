@@ -2,10 +2,9 @@ $(document).ready(function(){
     $.ajax({
         url : 'https://raw.githubusercontent.com/sangmin802/artbox/master/json/items.json',
         method : 'GET',
-        datatype : 'json'
+        dataType : 'json'
     }).done(function(data){
         pdt = data;
-
         finditem(pdt);
     });
     

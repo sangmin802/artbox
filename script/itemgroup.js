@@ -7,7 +7,7 @@ $(document).ready(function(){
         dataType : 'json'
     }).done(function(data){
         var pdt = data
-
+        console.log(pdt)
         for(var i in pdt){
             if(pdt[i].group==korgroup){
                 groupcart.push(pdt[i]);
